@@ -1,0 +1,100 @@
+body {
+  font-family: 'Open Sans';
+  line-height: 1.2;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 28px;
+  margin: 20px 10px 10px 20px;
+}
+
+.clock {
+  font-size: 28px;
+  font-family: Orbitron;
+  font-weight: 700;
+  width: 550px;
+  height: 94px;
+  border: 2px solid black;
+  margin: 0 20px 20px 20px;
+  padding: 10px;
+  background: orange;
+  background-size: cover;
+  background-position-y: 20%;
+}
+
+.clock p {
+  margin: 12px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  line-height: 33.6px;
+}
+
+p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.tabs {
+  width: 240px;
+  height: 200px;
+}
+
+.tab-header {
+  width: 200px;
+  height: 30px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab-header > span  {
+  width: 65px;
+  border-top: 2px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 2px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 4px;
+  text-align: center;
+  cursor: pointer;
+  background-color: lightblue;
+  font-weight: 100;
+}
+
+.tab-header > span:hover {
+  background: black;
+  color: white;
+}
+
+.tab-header .active {
+  border-bottom: none;
+  font-weight: 700;
+}
+
+.tab-header > span:first-child {
+  border-left: 2px solid black;
+}
+  
+.tab-header > span:last-child {
+  border-right: 2px solid black;
+}
+
+.tab-content {
+  font-weight: 700;
+  color: white;
+  height: 192px;
+  margin: 0 20px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+  background-size: cover;
+}
